@@ -13,6 +13,9 @@
     <!-- kernel -->
     <project name="tim-ecoder/android_kernel_blackberry_sdm660" path="kernel/blackberry/sdm660" remote="github" revision="lineage-22.2" />
 
+    <!-- hardware -->
+    <project name="tim-ecoder/android_hardware_blackberry" path="hardware/blackberry" remote="github" revision="lineage-22.2" />
+
     <!-- framework -->
     <remove-project path="frameworks/base"/>
     <project name="tim-ecoder/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-22.2" />
