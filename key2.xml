@@ -17,11 +17,4 @@
     <remove-project path="frameworks/base"/>
     <project name="tim-ecoder/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-22.2" />
 
-    <!-- Lokker -->
-    <project name="tim-ecoder/Lokker" path="packages/apps/Lokker" remote="github" revision="main" />
-
-
-    <!-- settings -->
-    <remove-project path="packages/apps/Settings"/>
-    <project name="tim-ecoder/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lineage-22.2" />
 </manifest>
